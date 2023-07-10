@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: auto;
+    height: auto;
+    background: #FFF;
+}
+
+.header-container {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+    text-align: left;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.header-content {
+    margin: 100px 40px;
+    padding: 20px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+
+}
+
+.herder-discription {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+
+}
+
+.profile-pic {
+    width: 635px;
+    height: 100vh;
+
+}
+
+
+
+.main-flower {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main-heading {
+    color: #272727;
+    font-size: 40px;
+    padding: 20px;
+
+}
+
+.main-discription {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* <!-- start main section css code --> */
+
+.main-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 80px 280px;
+
+
+}
+
+.image1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 400px;
+    height: 538px;
+
+
+}
+
+.image-resize {
+    width: 310px;
+    height: 428px;
+    margin-top: 110px;
+
+}
+
+.image2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 400px;
+    height: 538px;
+}
+
+.image3 {
+    width: 400px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.link {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* <!-- icon box square model start/delivery section css code --> */
+
+.icon-container {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: auto;
+    height: 280px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 80px 180px;
+
+}
+
+.group-icon {
+    width: 88px;
+    height: 68px;
+    padding: 20px;
+
+
+}
+
+.icon-discription {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+
+}
+
+/* <!-- start discount section css code start --> */
+.discount-container {
+    width: auto;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.discount-bar {
+    margin-left: 200px;
+}
+
+.discount-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+
+}
+
+.discount-off {
+    color: #E55473;
+}
+
+.discount-discription {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    padding: 10px;
+}
+
+.discount-img {
+    width: 318px;
+    height: 420px;
+    margin-right: 200px;
+}
+
+/* insta section css */
+.insta {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.insta-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+
+
+}
+
+.inta-discription {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px;
+
+}
+
+
+.insta-img {
+    width: 342px;
+    height: 350px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 30px;
+    margin: 10px 60px;
+
+
+}
+
+.latest-container {
+    background-image: url("Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 449px;
+    margin: 100px 85px;
+
+}
+
+.letest-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.latest-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+
+.latest-discription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+.latest-input {
+    width: 700px;
+    height: 15px;
+    padding: 20px;
+    border: none;
+    margin: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    align-items: center;
+
+}
+
+/* footer section css start */
+
+.footer-container {
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+}
+
+.footer-item {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 79%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800;
+    padding: 10px;
+
+}
+
+.title-color {
+    color: #E55473;
+}
+
+.footer-discription {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    padding: 10px;
+
+
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    padding: 10px;
+}
